@@ -1,0 +1,57 @@
+\section*{Fit for Time to merger from Hinder et al 2017}
+
+We now determine $\Delta t = t_{\rm peak} - t_{\rm ref}$ given the parameters at
+
+$t_{\rm ref}$. The most general functional form would be
+
+\begin{equation}
+
+    \Delta t(q, e, l) = \sum_{ijk=0}^{\infty} a_{ijk}\, q^{i} e^{j} \cos(kl - \alpha_{ijk})
+
+    \label{eq:7}
+
+\end{equation}
+
+where we use a Taylor expansion in $q$ and $e$, and a Fourier series in $l$, since
+
+$l$ is a periodic variable. In order to match the NR data, we find that we require
+
+quadratic terms in $q$ and $e$, but only the first mode in $l$. Since there can be
+
+no variation with $l$ when $e = 0$, we must have $a_{i01} = 0$. The resulting
+
+model for $\Delta t$ is
+
+\begin{equation}
+
+\begin{aligned}
+
+    \Delta t(q, e, l) = \Delta t_0 + a_1 e + a_2 e^2 + b_1 q + b_2 q^2 + \\
+
+    c_1 e \cos(l + c_2) + c_3 e q
+
+\end{aligned}
+
+    \label{eq:8}
+
+\end{equation}
+
+There are 8 unknown parameters, and the model is fitted to all 23 simulations.
+
+The fitted function is
+
+\begin{equation}
+
+\begin{aligned}
+
+    \Delta t(q, e, l) = 391.196 + 3.13391\,e - 2492.95\,e^2 + \\
+
+    2.77212\,q - 17.92\,eq + 8.11842\,q^2 + \\
+
+    76.4944\,e\cos(0.626653 + l)
+
+\end{aligned}
+
+    \label{eq:9}
+
+\end{equation}

@@ -1,0 +1,18 @@
+=== CHECKLIST: random_forest ===
+[PASS] model.pkl saved
+[PASS] error arrays saved (10 npy files)
+[PASS] histogram.pdf
+[PASS] histogram_ligo_mm.pdf
+[PASS] dephasing_vs_e0.pdf
+[PASS] dephasing_vs_chieff.pdf
+[PASS] mathcalE_vs_e0.pdf
+[PASS] mathcalE_vs_chieff.pdf
+[PASS] ligo_mm_vs_e0.pdf
+[PASS] ligo_mm_vs_chieff.pdf
+[PASS] best_modulation.pdf
+[PASS] median_modulation.pdf
+[PASS] worst_modulation.pdf
+[PASS] summary.json
+[PASS] progress_log.md updated
+[PASS] CHANGELOG.md updated
+=== ALL 16 CHECKS PASSED ===
